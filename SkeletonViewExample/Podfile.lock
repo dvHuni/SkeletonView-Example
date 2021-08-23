@@ -1,0 +1,20 @@
+PODS:
+  - SkeletonView (1.21.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - SkeletonView
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SkeletonView
+    - SnapKit
+
+SPEC CHECKSUMS:
+  SkeletonView: a085533443fed0198309f1979780afb6e80eaedd
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 4e58ec6839d2b56bda7253012e6966777acfa574
+
+COCOAPODS: 1.10.1
