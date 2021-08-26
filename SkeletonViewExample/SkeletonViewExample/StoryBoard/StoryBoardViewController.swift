@@ -20,7 +20,7 @@ class StoryBoardViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        view.showSkeleton()
+        view.showAnimatedGradientSkeleton()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
             self?.view.hideSkeleton()
