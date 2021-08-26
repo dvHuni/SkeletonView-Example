@@ -15,12 +15,13 @@ class StoryBoardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        view.showAnimatedGradientSkeleton()
+        
+        labelContainer.showSkeleton()
+        skeletonCollectionView.showAnimatedGradientSkeleton()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
             self?.view.hideSkeleton()
@@ -28,9 +29,7 @@ class StoryBoardViewController: UIViewController {
     }
 }
 
-extension StoryBoardViewController: UICollectionViewDelegate {
-    
-}
+extension StoryBoardViewController: UICollectionViewDelegate { }
 
 extension StoryBoardViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
