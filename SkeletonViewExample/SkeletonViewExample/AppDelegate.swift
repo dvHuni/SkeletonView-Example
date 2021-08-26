@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Use this code when present CodeBased SkeletonView
-         window?.rootViewController = CodeBasedViewController(nibName: nil, bundle: nil)
+        // window?.rootViewController = CodeBasedViewController(nibName: nil, bundle: nil)
         return true
     }
 }
