@@ -64,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				770E075F26D1371E00E0E7C2 /* AppDelegate.swift */,
+				77B0BDDD26D8B01E00B283B7 /* CodeBased */,
 				777A332226D4D01200EFAB68 /* StoryBoard */,
-				777A332026D4D00900EFAB68 /* CodeBasedViewController.swift */,
 				770E076826D1371F00E0E7C2 /* Assets.xcassets */,
 				770E076A26D1371F00E0E7C2 /* LaunchScreen.storyboard */,
 				770E076D26D1371F00E0E7C2 /* Info.plist */,
@@ -80,6 +80,14 @@
 				770E076326D1371E00E0E7C2 /* StoryBoardViewController.swift */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		77B0BDDD26D8B01E00B283B7 /* CodeBased */ = {
+			isa = PBXGroup;
+			children = (
+				777A332026D4D00900EFAB68 /* CodeBasedViewController.swift */,
+			);
+			path = CodeBased;
 			sourceTree = "<group>";
 		};
 		87A35CB2B73AC91B2392096E /* Pods */ = {
