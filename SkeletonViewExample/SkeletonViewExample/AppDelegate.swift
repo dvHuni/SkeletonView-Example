@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        // Use this code when present CodeBased SkeletonView
+        // Use this code when present to "CodeBased SkeletonView"
         // window?.rootViewController = CodeBasedViewController(nibName: nil, bundle: nil)
         return true
     }
