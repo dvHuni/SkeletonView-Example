@@ -8,6 +8,5 @@ target 'SkeletonViewExample' do
   # Pods for SkeletonViewExample
 
   pod "SkeletonView"
-  pod "SnapKit"
 
 end
